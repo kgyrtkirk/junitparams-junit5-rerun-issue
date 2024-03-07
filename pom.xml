@@ -21,6 +21,7 @@
 		</dependencies>
 	</dependencyManagement>
 
+
 	<dependencies>
 		<dependency>
 			<groupId>pl.pragmatists</groupId>
