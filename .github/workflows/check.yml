@@ -35,5 +35,8 @@ jobs:
           java-version: 11
           cache: 'maven'
 
+      - name: version
+        run: mvn --version
+
       - name: run test
-        run: mvn test
+        run: mvn -B build test
