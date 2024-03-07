@@ -39,4 +39,4 @@ jobs:
         run: mvn --version
 
       - name: run test
-        run: mvn -B build test
+        run: mvn -B test
